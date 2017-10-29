@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
 //getting page for about page
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
-        pageTitle: 'About Page'
+        pageTitle: 'About Me'
     });
 });
 
